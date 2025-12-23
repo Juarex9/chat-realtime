@@ -15,7 +15,7 @@ const io = new Server(server);
 
 app.engine("handlebars", engine());
 app.set("view engine", "handlebars");
-app.set("views", join(__dirname, "views"));
+app.set("views", join(__dirname, "../views"));
 
 //midlewares
 app.use(express.json());
